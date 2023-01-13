@@ -4,8 +4,8 @@ PostgreSql Install
 - cd postgres
 - docker compose up
 
-username: admin
-password: admin
+- username: admin
+- password: admin
 
 --------------------
 RabbitMQ Install
@@ -14,8 +14,8 @@ RabbitMQ Install
 - cd rabbitmq
 - docker compose up
 
-username: guest
-password: guest
+- username: guest
+- password: guest
 
 --------------------
 Kafka Install
@@ -30,8 +30,8 @@ Ms Sql Install
 - cd ms-sql
 - docker compose up
 
-username: sa
-password: admin
+- username: sa
+- password: admin
 
 
 
